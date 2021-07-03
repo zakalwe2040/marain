@@ -71,7 +71,8 @@ public class Symbols implements Iterable<Symbol> {
         add(new Glyph("100110111", "14789085", 'k', "ka"));
         add(new Glyph("101111111", "1793085", 'N', "nga"));
         add(new Glyph("010000101", "7297", 'A', "aa"));
-        add(new Glyph("111101111", "123698741", 'h', "ha"));
+        add(new Glyph("111100111", "3179", 'h', "ha"));
+        // add(new Glyph("111101111", "123698741", 'h', "ha"));
     }
 
     private void addNumerals() {
