@@ -16,7 +16,7 @@ public class Symbols implements Iterable<Symbol> {
         addAbjad();
         addNumerals();
         addEmojis();
-        addMath();
+        addBinaryOperators();
     }
 
     public void add(final Symbol symbol) {
@@ -113,10 +113,11 @@ public class Symbols implements Iterable<Symbol> {
         add(new Glyph("101000000", null, 0x1F628, "paa"));
     }
 
-    private void addMath() {
+    private void addBinaryOperators() {
         add(new Glyph("010101010", "26842", '+', "bun"));
         add(new Glyph("111101111", "123698741", '*', "chin"));
         add(new Glyph("100101100", "1671", '-', "paa"));
         add(new Glyph("100101101", "1671", '/', "shoon"));
+        add(new Glyph("101101100", "1671", '%', "shoom"));
     }
 }

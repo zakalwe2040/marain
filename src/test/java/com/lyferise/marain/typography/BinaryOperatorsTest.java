@@ -4,13 +4,13 @@ import org.junit.jupiter.api.Test;
 
 import java.nio.file.Paths;
 
-public class MathTest {
+public class BinaryOperatorsTest {
 
     @Test
-    public void shouldRenderMathematicalSymbols() {
+    public void shouldRenderBinaryOperators() {
         final var symbols = new Symbols();
         final var renderer = new TypographicRenderer(symbols);
-        final var slate = renderer.render("+*-/");
-        slate.writeSvg(Paths.get("docs/math.svg"));
+        final var slate = renderer.render("+*-/%");
+        slate.writeSvg(Paths.get("docs/binary-operators.svg"));
     }
 }
