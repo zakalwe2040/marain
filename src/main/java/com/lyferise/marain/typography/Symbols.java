@@ -18,6 +18,7 @@ public class Symbols implements Iterable<Symbol> {
         addEmojis();
         addBinaryOperators();
         addBrackets();
+        addLogicSymbols();
     }
 
     public void add(final Symbol symbol) {
@@ -131,5 +132,11 @@ public class Symbols implements Iterable<Symbol> {
         add(new Glyph("110111110", "17028", '(', "net"));
         add(new Glyph("111011111", "28039", '}', "fra"));
         add(new Glyph("111110111", "17028", '{', "vet"));
+    }
+
+    private void addLogicSymbols() {
+        add(new Glyph("100011100", "157056", '&', "wa"));
+        add(new Glyph("001110001", "359054", '|', "ow"));
+        add(new Glyph("111010101", "9137", '!', "ma"));
     }
 }
