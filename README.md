@@ -131,10 +131,17 @@ The Marain glyphs in the image below are shown together with equivalent Unicode 
 
 # Mathematical and Logical Notation
 
-## Binary Operators
+When encoded in Linear form, Marain is a single unified language that supports speech, mathematics and algorithmic coding. This
+is made possible through dual-coding and by reusing the same symbols and notation for related concepts, distinguished by context. For example, the glyph
+_wa_ (meaning 'and') is used for both logical conjunction in mathematical formulae, as well as taking the role of a conjunctive particle grammatically
+when used in speech.
+
+Crucial to the choice of glyphs is the concept of homoiconicity, i.e. that the glyphs should allude to their meaning as much as possible through their form.
+
+## Arithmetical Operators
 
 Recent research at the [Centre for Mathematical Cognition](https://pdfs.semanticscholar.org/b269/048ac26ef1fe01a1ffd3eee2b7df0b1f8140.pdf)
-at Loughborough University, has shown that the choice in symmetries for mathematical glyphs can provide a significant cognitive advantage
+at Loughborough University, has shown that the choice of symmetries for mathematical glyphs can provide a significant cognitive advantage
 compared to glyphs which are purely symbolic. The diagram below shows mathematical symbols in Marian for addition, multiplication, subtraction, division
 and the modulo operator.
 
@@ -149,6 +156,9 @@ and boosts cognition when vertically symmetric symbols are associated with commu
 (the congruent condition).
 
 ## Logic Symbols
+
+Similar to the cognitive benefits of homoiconicity for arithmetical operators, the logical symbols for conjunction, disjunction and negation are also homoiconic, i.e., the
+glyphs themselves allude to the conceptual meaning of the logical operator, when read from right to left. 
 
 ![](docs/logic.svg)
 
@@ -167,3 +177,6 @@ The three glyphs for equality and copula are:
 * _heeya_ (equality)
 * _kun_ (definition / make)
 * _iz_ (copula verb)
+
+Both mathematically and linguistically, Marain distinguishes between equality (_heeya_) and definition or assignment (_kun_).
+In Marain, the copula verb _iz_ is used in a similar way to English verb _be_ and it's morphological deriviations. 

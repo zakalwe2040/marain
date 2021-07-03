@@ -26,7 +26,7 @@ public class GlyphsTest {
                 if (glyph == null) {
                     glyph = new Glyph(value, "", ' ', valueOf(value + 1));
                 }
-                if (glyph.getSlateChannel().hasHorizontalSymmetry() && glyph.getCodePoint() == 32) {
+                // if (glyph.getSlateChannel().hasHorizontalSymmetry() && glyph.getCodePoint() == 32) {
                     slate.add(
                             new AnnotatedSlateChannel(
                                     1150 - 75 * columnIndex,
@@ -35,7 +35,7 @@ public class GlyphsTest {
                                     styles,
                                     layoutContext,
                                     glyph));
-                }
+                // }
                 value++;
             }
         }
