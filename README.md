@@ -128,3 +128,22 @@ The Marain glyphs in the image below are shown together with equivalent Unicode 
 20. _fin_ (😡): anger
 21. _pil_ (🥱): fatigue
 22. _paa_ (😨): fear
+
+# Mathematical Notation
+
+## Binary Operators
+
+Recent research at the [Centre for Mathematical Cognition](https://pdfs.semanticscholar.org/b269/048ac26ef1fe01a1ffd3eee2b7df0b1f8140.pdf)
+at Loughborough University, has shown that the choice in symmetries for mathematical glyphs can provide a significant cognitive advantage
+compared to glyphs which are purely symbolic. The diagram below shows mathematical symbols in Marian for addition, multiplication, subtraction, division
+and the modulo operator.
+
+![](docs/binary-operators.svg)
+
+Christine Ladd (1847-1930) was the first woman to complete all requirements for a PhD in mathematics and logic at Johns Hopkins University in 1883. However,
+since the university did not officially admit women at the time, she was not granted her doctorate until 1926. Ladd hypothesized that cognition would improve
+if the visual symmetries of mathematical symbols were better aligned with the functional symmetries of the operator that the symbol represents.
+
+[Research in 2020](https://pdfs.semanticscholar.org/b269/048ac26ef1fe01a1ffd3eee2b7df0b1f8140.pdf) has shown that Ladd's principle applies
+and boosts cognition when vertically symmetric symbols are associated with commutative operations and vertically asymmetric symbols with non-commutative operations
+(the congruent condition).
