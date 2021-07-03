@@ -19,6 +19,7 @@ public class Symbols implements Iterable<Symbol> {
         addBinaryOperators();
         addBrackets();
         addLogicSymbols();
+        addEqualityAndCopula();
     }
 
     public void add(final Symbol symbol) {
@@ -138,5 +139,11 @@ public class Symbols implements Iterable<Symbol> {
         add(new Glyph("100011100", "157056", '&', "wa"));
         add(new Glyph("001110001", "359054", '|', "ow"));
         add(new Glyph("111010101", "9137", '!', "ma"));
+    }
+
+    private void addEqualityAndCopula() {
+        add(new Glyph("111111000", "13046", '=', "heeya"));
+        add(new Glyph("111111010", "13046", '$', "kun"));
+        add(new Glyph("010111010", "268046", ':', "iz"));
     }
 }
