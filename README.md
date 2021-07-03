@@ -129,7 +129,7 @@ The Marain glyphs in the image below are shown together with equivalent Unicode 
 21. _pil_ (🥱): fatigue
 22. _paa_ (😨): fear
 
-# Mathematical Notation
+# Mathematical and Logical Notation
 
 ## Binary Operators
 
@@ -147,3 +147,23 @@ if the visual symmetries of mathematical symbols were better aligned with the fu
 [Research in 2020](https://pdfs.semanticscholar.org/b269/048ac26ef1fe01a1ffd3eee2b7df0b1f8140.pdf) has shown that Ladd's principle applies
 and boosts cognition when vertically symmetric symbols are associated with commutative operations and vertically asymmetric symbols with non-commutative operations
 (the congruent condition).
+
+## Logic Symbols
+
+![](docs/logic.svg)
+
+The three glyphs for encoding logic are:
+
+* _wa_ (and / conjunctive logic)
+* _ow_ (or / disjunctive logic)
+* _ma_ (not / negation)
+
+## Equality and Copula
+
+![](docs/equality.svg)
+
+The three glyphs for equality and copula are:
+
+* _heeya_ (equality)
+* _kun_ (definition / make)
+* _iz_ (copula verb)
