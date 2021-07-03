@@ -16,6 +16,7 @@ public class Symbols implements Iterable<Symbol> {
         addAbjad();
         addNumerals();
         addEmojis();
+        addMath();
     }
 
     public void add(final Symbol symbol) {
@@ -72,7 +73,6 @@ public class Symbols implements Iterable<Symbol> {
         add(new Glyph("101111111", "1793085", 'N', "nga"));
         add(new Glyph("010000101", "7297", 'A', "aa"));
         add(new Glyph("111100111", "3179", 'h', "ha"));
-        // add(new Glyph("111101111", "123698741", 'h', "ha"));
     }
 
     private void addNumerals() {
@@ -111,5 +111,12 @@ public class Symbols implements Iterable<Symbol> {
         add(new Glyph("101011010", "658", 0x1F621, "fin"));
         add(new Glyph("101111000", "46", 0x1F971, "pil"));
         add(new Glyph("101000000", null, 0x1F628, "paa"));
+    }
+
+    private void addMath() {
+        add(new Glyph("010101010", "26842", '+', "bun"));
+        add(new Glyph("111101111", "123698741", '*', "chin"));
+        add(new Glyph("100101100", "1671", '-', "paa"));
+        add(new Glyph("100101101", "1671", '/', "shoon"));
     }
 }
