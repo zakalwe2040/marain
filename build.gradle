@@ -1,0 +1,41 @@
+plugins {
+    id "java"
+}
+
+ext {
+    lombokVersion = "1.18.20"
+    hamcrestVersion = "2.2"
+    junitVersion = "5.7.2"
+    svgVersion = "5.0"
+}
+
+version = "1.0"
+group = "com.lyferise"
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+
+    // implementation
+    compileOnly "org.projectlombok:lombok:$lombokVersion"
+    annotationProcessor "org.projectlombok:lombok:$lombokVersion"
+    implementation "org.jfree:org.jfree.svg:$svgVersion"
+
+    // test
+    testCompileOnly "org.projectlombok:lombok:$lombokVersion"
+    testAnnotationProcessor "org.projectlombok:lombok:$lombokVersion"
+    testImplementation "org.hamcrest:hamcrest:$hamcrestVersion"
+    testImplementation "org.junit.jupiter:junit-jupiter-api:$junitVersion"
+    testRuntimeOnly "org.junit.jupiter:junit-jupiter-engine:$junitVersion"
+}
+
+java {
+    sourceCompatibility = JavaVersion.VERSION_14
+    targetCompatibility = JavaVersion.VERSION_14
+}
+
+test {
+    useJUnitPlatform()
+}
