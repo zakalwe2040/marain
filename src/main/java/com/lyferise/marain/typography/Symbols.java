@@ -17,6 +17,7 @@ public class Symbols implements Iterable<Symbol> {
         addNumerals();
         addEmojis();
         addBinaryOperators();
+        addBrackets();
     }
 
     public void add(final Symbol symbol) {
@@ -119,5 +120,16 @@ public class Symbols implements Iterable<Symbol> {
         add(new Glyph("100101100", "1671", '-', "paa"));
         add(new Glyph("100101101", "1671", '/', "shoon"));
         add(new Glyph("101101100", "1671", '%', "shoom"));
+    }
+
+    private void addBrackets() {
+        add(new Glyph("001010001", "359", '>', "bra"));
+        add(new Glyph("100010100", "157", '<', "ket"));
+        add(new Glyph("011010011", "3289", ']', "mra"));
+        add(new Glyph("110010110", "1287", '[', "pet"));
+        add(new Glyph("011111011", "28039", ')', "zra"));
+        add(new Glyph("110111110", "17028", '(', "net"));
+        add(new Glyph("111011111", "28039", '}', "fra"));
+        add(new Glyph("111110111", "17028", '{', "vet"));
     }
 }
