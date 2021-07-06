@@ -20,6 +20,7 @@ public class Symbols implements Iterable<Symbol> {
         addBrackets();
         addLogicSymbols();
         addEqualityAndCopula();
+        addLambdaAndPunctuation();
     }
 
     public void add(final Symbol symbol) {
@@ -145,5 +146,12 @@ public class Symbols implements Iterable<Symbol> {
         add(new Glyph("111111000", "13046", '=', "heeya"));
         add(new Glyph("111111010", "13046", '$', "kun"));
         add(new Glyph("010111010", "268046", ':', "iz"));
+    }
+
+    private void addLambdaAndPunctuation() {
+        add(new Glyph("110010101", "1257059", '?', "mahu"));
+        add(new Glyph("000010000", null, '.', "ka"));
+        add(new Glyph("000000010", null, ',', "kon"));
+        add(new Glyph("000010010", null, ';', "kin"));
     }
 }
