@@ -179,4 +179,12 @@ The three glyphs for equality and copula are:
 * _iz_ (copula verb)
 
 Both mathematically and linguistically, Marain distinguishes between equality (_heeya_) and definition or assignment (_kun_).
-In Marain, the copula verb _iz_ is used in a similar way to English verb _be_ and it's morphological deriviations. 
+In Marain, the copula verb _iz_ is used in a similar way to English verb _be_ and it's morphological derivations. 
+
+## Universal Computation and the Lambda Calculus
+
+Marain uses four glyphs for punctuation. The glyph _mahu_ is used for both a sentence-terminating question mark as well as for the [Lambda Calculus](https://en.wikipedia.org/wiki/Lambda_calculus),
+the simplest universal model of computation that can be used to simulate a [Turing machine](https://en.wikipedia.org/wiki/Turing_machine), or other virtual machine
+in abstract information space.
+
+![](docs/punctuation.svg)
